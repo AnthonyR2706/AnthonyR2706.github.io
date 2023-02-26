@@ -55,6 +55,7 @@
         float: left;
       }
       .dateInput{
+	cursor: pointer;
         width: 9%;
         margin-left: 0;
       }
@@ -84,7 +85,6 @@
         color: white;
       }
       .custom-select{
-        cursor: pointer;
         border: 1px solid black;
         background: #f0f0f0;
         padding: 8px;
