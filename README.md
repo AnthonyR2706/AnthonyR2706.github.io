@@ -65,6 +65,7 @@
         background: #f0f0f0;
         padding: 10px;
         width: 7%;
+	margin-right: 1%;
         float: left;
         text-align: center;
       }
@@ -90,7 +91,6 @@
         padding: 8px;
         width: 8%;
         float: left;
-        margin-right: 1%;
         text-align: center;
       }
     </style>
@@ -106,7 +106,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <input type="text" id="input" placeholder="Task...">
     <input type="date" id="date" class="dateInput" placeholder="Due Date">
-    <span onclick="newItem()" class="button">Add</span>
     <div class="custom-select"  style="width:8%;">
       <select id="colorInput">
         <option value="0">Color</option>
@@ -115,6 +114,7 @@
         <option value="3">Red</option>
         <option value="3">Grey</option>
       </select>
+      <span onclick="newItem()" class="button">Add</span>
     </div>
   </body>
     
