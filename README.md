@@ -1,5 +1,4 @@
 # AnthonyR2706.github.io
-<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -117,7 +116,6 @@
         <option value="3">Grey</option>
       </select>
     </div>
-</div>
   </body>
     
     <script>   
